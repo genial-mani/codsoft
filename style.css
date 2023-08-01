@@ -378,7 +378,7 @@ span {
 }
 
 /* //////////////////////// */
-.ad-img-container {
+#ad-img-container {
   position: relative;
   margin-top: 0;
   bottom: 0;
@@ -387,7 +387,7 @@ span {
   /* background-color: aquamarine; */
 }
 
-.ad-image-wrapper {
+#ad-image-wrapper {
   position: absolute;
   bottom: 0;
   left: 1.5rem;
@@ -396,14 +396,14 @@ span {
   overflow: hidden;
 }
 
-.ad-img {
+#ad-img {
   position: relative;
   bottom: 0;
   display: block;
   width: 100%;
 }
 
-.ad-div-container {
+#ad-div-container {
   margin: 9.4rem 0 0;
   width: 22rem;
   height: 40rem;
@@ -414,14 +414,14 @@ span {
 
 
 
-.ad-heading {
+#ad-heading {
   width: 20rem;
   height: 6rem;
   margin: 1.5rem 0 0 1.5rem;
   font: clamp(1.5rem, .1rem + 5vw, 1.8rem) "Barlow Semi Condensed", sans-serif;
 }
 
-.ad-para {
+#ad-para {
   margin: 0 0 0 1.5rem;
   width: 17rem;
   min-height: 11rem;
@@ -430,7 +430,7 @@ span {
   line-height: 1.5;
 }
 
-.ad-button {
+#ad-button {
   width: 14rem;
   height: 4rem;
   margin: 1.5rem auto 0;
