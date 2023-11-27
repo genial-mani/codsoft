@@ -508,9 +508,12 @@ body{
 
 @keyframes bounce {
     0% {
+        transform: scale(1);
+    }
+    50% {
         transform: scale(.5);
     }
-    100% {
+    100%{
         transform: scale(1);
     }
 }
